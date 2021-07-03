@@ -17,6 +17,12 @@ body {
     padding-top: 30px;
 }
 
+.icon {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+
 #search-form {
     grid-column: 2/3;
     align-self: center;
@@ -44,24 +50,12 @@ body {
 }
 
 #left-search-image {
-    width: 20px;
-    height: 20px;
-    align-self: center;
     opacity: 0.5;
     display:none;
 }
 
 #right-search-image {
-    width: 20px;
-    height: 20px;
-    align-self: center;
     padding-left: 10px;
-}
-
-#mic-image {
-    width: 20px;
-    height: 20px;
-    align-self: center;
 }
 
 #settings-apps-profile {
@@ -81,16 +75,6 @@ body {
 #profile-image {
     width: 30px;
     height: 30px;
-}
-
-#settings-image {
-    width: 20px;
-    height: 20px;
-}
-
-#apps-image {
-    width: 20px;
-    height: 20px;
 }
 
 #profile-image:hover {
@@ -225,9 +209,6 @@ body {
 }
 
 .search-image {
-    width: 20px;
-    height: 20px;
-    align-self: center;
     opacity: 0.7;
     padding-left: 10px;
     padding-right: 20px;
